@@ -47,10 +47,10 @@ A logistic regression model gridsearch was run using he following parameters:
  Results:
  * Best parameters
  
-    > {'ct__num_trans__num_impute__strategy': 'median',
-    > 'lr__C': 0.01,
-    > 'lr__penalty': 'l2',
-    > 'lr__solver': 'lbfgs'}
+>       {'ct__num_trans__num_impute__strategy': 'median',
+>       'lr__C': 0.01,
+>       'lr__penalty': 'l2',
+>       'lr__solver': 'lbfgs'}
 
 * Best score
     > 0.7962
