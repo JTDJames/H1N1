@@ -16,9 +16,47 @@ The data comes from an over 26,000 person phone survey conducted in 2010, a year
 
 ## Data Exploration
 
+Of all respondents, 21% received the H1N1 vaccine. Notably, this is far less than those that reported receiving the annual flu vaccine, at 47%. 38& of those that recieved the seasonal flu vaccine recieved the H1N1 vaccine, 7% who did not recieve the seasonal flu vaccine recieved the H1N1 vaccine. 
+
+![H1N1 vaccine percent](images/####.jpg)
+![Seasonal flu vaccine percent](images/####.jpg)
+
+Which grouping of questions is a better indicator of liklihood to get a vaccine? Note that for 'opinion_h1n1_sick_from_vacc', the higher score is associated with a negative relationship to teh vaccine, so add (6 - 'opinion_h1n1_sick_from_vacc') in the opinion sum. 
+
+![H1N1 vaccine percent by behaviroal scores sum ](images/####.jpg)
+![H1N1 vaccine percent by opinion scores sum ](images/####.jpg)
+
+The opinion sum had a larger difference in percent of those that received the vaccine between the lowest and highest opinion scores, than that of the lowest and highest behavioral score.
+
 
 ## Modelling
+dummy
+fsm
 
+### Grid search with CV models
+
+A logistic regression model gridsearch was run using he following parameters:
+        
+        lr_params = {
+                      'ct__num_trans__num_impute__strategy' : ['mean', 'median'],
+                      'lr__penalty' : ['l1', 'l2', 'elasticnet'],
+                      'lr__C' : [100, 10, 1.0, 0.1, 0.01],
+                      'lr__solver' : ['lbfgs', 'liblinear', 'saga'],
+                      }
+                      
+ Results:
+ * Best parameters
+    > {'ct__num_trans__num_impute__strategy': 'median',
+    > 'lr__C': 0.01,
+    > 'lr__penalty': 'l2',
+    > 'lr__solver': 'lbfgs'}
+
+* Best score
+    > 0.7962
+
+Recall:
+* 0.7911079745942131
+![Recall score logistic regression grid search](images/cm_log_reg.png)
 
 ## Evaluation
 
