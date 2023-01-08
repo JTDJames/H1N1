@@ -6,7 +6,7 @@
 
 This project aims to help health providers prepare for the vaccination needs for future pandemics. From community clinics to health care providers with hospitals and offices aross regions, they will need *KJHJKHSDJKH*. The goals are to understand the indicators for recieving pandemic vaccines and build a model that will predict those who will get a pandemic vaccine.
 
-# Business Understanding
+## Business Understanding
 
 Healthcare providers need to know how many vaccines  purchase or request, depending on the national distribution plan, so that all patients who want a vaccine recieve one and will not collect a large surplus. To answer this question we are going to build a model trained on data of individuals who recieved the h1n1 vaccine, to use to predict individuals who will likely recieve a future pademic vaccination. While overall accuracy is important, because health care providers would rather have slightly more vaccines than needed, rahter than being short and not having vaccines for individuals that requested them, we will focus on achieveing a high recall score.
 
