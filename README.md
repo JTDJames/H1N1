@@ -1,10 +1,11 @@
-((A picture will go here))
+# Preparing for Future Pandemics Vaccine Needs
 
-# Overview
+## Overview
 
-This project is geared towards predicting
+This project aims to help health providers prepare for the vaccination needs for future pandemics. From community clinics to health care providers with hospitals and offices aross regions, they will need *KJHJKHSDJKH*. The goals are to understand the indicators for recieving pandemic vaccines and build a model that will predict those who will get a pandemic vaccine.
 
-This project is geared towards finding recommendations for a real estate firm interested in refurbishing and flipping residential properties in the Seattle metropolitan area. The problem we sought to address was how should the firm determine where to look for investment opportunities, and what actions could they take to increase the resale value of the home. Using the King County Housing dataset, we performed exploratory data analysis and built linear regression models to gain insights into the relationships between several independent variables and our target variable, price. We then utilized visualization techniques to present our findings and convey the rationale behind our recommendations to the stakeholder. Finally, we discussed limitations and steps we could take in a follow-up study that would provide additional value to our stakeholders.  
+
+![Vaccine in doctors hands](images/vaccine_header_readme.jpg)
 
 # Business Understanding
 
@@ -14,7 +15,10 @@ Healthcare providers need to know how many vaccines  purchase or request, depend
 ## Data Understanding
 The data comes from an over 26,000 person phone survey conducted in 2010, a year after the H1N1 outbreak, in which participants were asked about receiving the H1N1 vaccine, the seasonal flu vaccine, opionons about vaccines, behaviors around transmitting illness, and demograpic information.The dataset now has 26707 rows (survey respondents), and 38 columns (vairiables including id and targets). It has 12 objects and 26 numeric indicators. Indicators related to behavioral questions are binary,indicators related to opinion questions are a five point scale, numerical and srtingindicators related to demographics are of varying numbers of response choices, amd respondent ID is a unique identifer. The targets are binary, 0 or 1. 'health_insurance', 'employment_industry', and 'employment_occupation' all have over 50% nulls. Other columns contain a small percentage of nulls.
 
-## Data Modelling
+## Data Exploration
+
+
+## Modelling
 
 
 ## Evaluation
