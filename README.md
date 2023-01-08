@@ -1,11 +1,10 @@
 # Preparing for Future Pandemics Vaccine Needs
 
+![Vaccine in doctors hands](images/vaccine_header_readme.jpg)
+
 ## Overview
 
 This project aims to help health providers prepare for the vaccination needs for future pandemics. From community clinics to health care providers with hospitals and offices aross regions, they will need *KJHJKHSDJKH*. The goals are to understand the indicators for recieving pandemic vaccines and build a model that will predict those who will get a pandemic vaccine.
-
-
-![Vaccine in doctors hands](images/vaccine_header_readme.jpg)
 
 # Business Understanding
 
