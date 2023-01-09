@@ -20,13 +20,13 @@ The dataset now has 26707 rows (survey respondents), and 38 columns (vairiables 
 
 Of all respondents, 21% received the H1N1 vaccine. Notably, this is far less than those that reported receiving the annual flu vaccine, at 47%. 38& of those that recieved the seasonal flu vaccine recieved the H1N1 vaccine, 7% who did not recieve the seasonal flu vaccine recieved the H1N1 vaccine. 
 
-![H1N1 vaccine percent](images/vaccine_percents..png)
-![Seasonal flu vaccine percent](images/seasonal_vax_percents..png)
+![H1N1 vaccine percent](images/vaccine_percents.png)
+![Seasonal flu vaccine percent](images/seasonal_vax_percents.png)
 
 Which grouping of questions is a better indicator of liklihood to get a vaccine? Note that for 'opinion_h1n1_sick_from_vacc', the higher score is associated with a negative relationship to teh vaccine, so add (6 - 'opinion_h1n1_sick_from_vacc') in the opinion sum. 
 
-![H1N1 vaccine percent by behavioral scores sum ](images/beh_totals..png)
-![H1N1 vaccine percent by opinion scores sum ](images/op_totals..png)
+![H1N1 vaccine percent by behavioral scores sum ](images/beh_totals.png)
+![H1N1 vaccine percent by opinion scores sum ](images/op_totals.png)
 
 The opinion sum had a larger difference in percent of those that received the vaccine between the lowest and highest opinion scores, than that of the lowest and highest behavioral score.
 
