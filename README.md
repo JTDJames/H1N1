@@ -104,3 +104,12 @@ Because the best parameters had a parameter, min_sample_leaf, at the far end of 
 
 ## Evaluation
 The logistic regression model with a numerical impute strategy of 'mean, C: .01, penalty: l1, and solver: liblinear, was our best performing model on trained data and cross validation.
+
+![H1N1 vaccine percent by doctor recomenndation](images/cm_log_reg.png)
+
+* Recall Score: 0.8038
+* Precision Score: 0.5135
+
+## Conclusion
+
+The model predicted 80% of the H1N1 recipients on the test data, however, almost half of its total predicted H1N1 recipients were false positives. This model in it's current state could lead health care providers to over purchasing or requesting vaccines. To improve the model the model for health care provider use, updated data shoudl be gathered about their specific specific patient populations.
