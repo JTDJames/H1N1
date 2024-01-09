@@ -2,6 +2,8 @@
 
 ![Vaccine in doctors hands](images/vaccine_header_readme.jpg)
 
+**Author:** [Justin James](https://www.linkedin.com/in/jtdjames/)
+
 ## Overview
 
 This project aims to help health providers prepare for the vaccination needs for future pandemics. From community clinics to health care providers with hospitals and offices aross regions, they will need know the amount of vaccines needed. The goals are to understand the indicators for recieving pandemic vaccines and build a model that will predict those who will get a pandemic vaccine.
