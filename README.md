@@ -112,4 +112,4 @@ The logistic regression model with a numerical impute strategy of 'mean, C: .01,
 
 ## Conclusion
 
-The model predicted 80% of the H1N1 recipients on the test data, however, almost half of its total predicted H1N1 recipients were false positives. This model in it's current state could lead health care providers to over purchasing or requesting vaccines. To improve the model the model for health care provider use, updated data shoudl be gathered about their specific specific patient populations.
+The model predicted 80% of the H1N1 recipients on the test data, however, almost half of its total predicted H1N1 recipients were false positives. This model in it's current state could lead health care providers to over purchasing or requesting vaccines. To improve the model the model for health care provider use, updated data should be gathered about their specific specific patient populations.
